@@ -1,0 +1,158 @@
+body{
+    background-color: #282c34;
+}
+
+#heading{
+    margin-left: 100px;
+    text-align: center;
+    font-size:xxx-large;
+    color: aliceblue;   
+    color: #fff;
+    animation: glowblue 100s infinite;
+}
+
+/* animations */
+    @keyframes glowpink {
+        0% {
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
+        }
+        50% {
+            text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff, 0 0 80px #ff00ff;
+        }
+        100% {
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 60px #ff00ff, 0 0 70px #ff00ff;
+        }}
+    @keyframes glowgreen {
+        0% {
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00;
+        }
+        50% {
+            text-shadow: 0 0 10px #fff, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00;
+        }
+        100% {
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00;
+        }}
+    @keyframes glowboxred {
+        0% {
+            box-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000, 0 0 20px #ff0000;
+        }
+        50% {
+            box-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000;
+        }
+        100% {
+            box-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 15px #ff0000, 0 0 20px #ff0000;
+        }}
+    @keyframes glowboxyellow {
+            0% {
+                box-shadow: 0 0 5px #ffe600, 0 0 10px #ffe600, 0 0 15px #ffe600, 0 0 20px #ffe600;
+            }
+            50% {
+                box-shadow: 0 0 10px #ffe600, 0 0 20px #ffe600, 0 0 30px #ffe600, 0 0 40px #ffe600;
+            }
+            100% {
+                box-shadow: 0 0 5px #ffe600, 0 0 10px #ffe600, 0 0 15px #ffe600, 0 0 20px #ffe600;
+            }}
+    @keyframes glowboxblue {
+                0% {
+                    box-shadow: 0 0 5px #49b2ed, 0 0 10px #49b2ed, 0 0 15px #49b2ed, 0 0 20px #49b2ed;
+                }
+                50% {
+                    box-shadow: 0 0 10px #49b2ed, 0 0 20px #49b2ed, 0 0 30px #49b2ed, 0 0 40px #49b2ed;
+                }
+                100% {
+                    box-shadow: 0 0 5px #49b2ed, 0 0 10px #49b2ed, 0 0 15px #49b2ed, 0 0 20px #49b2ed;
+                }}
+    @keyframes glowyellow {
+        0% {
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffe600, 0 0 30px #ffe600, 0 0 40px #ffe600, 0 0 50px #ffe600, 0 0 60px #ffe600, 0 0 70px #ffe600;
+        }
+        50% {
+            text-shadow: 0 0 10px #fff, 0 0 20px #ffe600, 0 0 30px #ffe600, 0 0 40px #ffe600, 0 0 50px #ffe600, 0 0 60px #ffe600, 0 0 70px #ffe600, 0 0 80px #ffe600;
+        }
+        100% {
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ffe600, 0 0 30px #ffe600, 0 0 40px #ffe600, 0 0 50px #ffe600, 0 0 60px #ffe600, 0 0 70px #ffe600;
+        }}
+    @keyframes glowblue {
+            0% {
+                text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 50px #0400ff, 0 0 60px #0400ff, 0 0 70px #0400ff;
+            }
+            50% {
+                text-shadow: 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 50px #0400ff, 0 0 60px #0400ff, 0 0 70px #0400ff, 0 0 80px #0400ff;
+            }
+            100% {
+                text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0400ff, 0 0 30px #0400ff, 0 0 40px #0400ff, 0 0 50px #0400ff, 0 0 60px #0400ff, 0 0 70px #0400ff;
+            }} 
+    @keyframes glowboxpink {
+                0% {
+                    box-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 15px #ff69b4, 0 0 20px #ff69b4;
+                }
+                50% {
+                    box-shadow: 0 0 10px #ff69b4, 0 0 20px #ff69b4, 0 0 30px #ff69b4, 0 0 40px #ff69b4;
+                }
+                100% {
+                    box-shadow: 0 0 5px #ff69b4, 0 0 10px #ff69b4, 0 0 15px #ff69b4, 0 0 20px #ff69b4;
+                }}
+    @keyframes glowwhite{
+                    from{text-shadow:0px 0px 5px #fff,0px 0px 5px #614ad3;}
+                    to{text-shadow:0px 0px 20px #fff,0px 0px 20px #614ad3;}}
+    @keyframes glowred{
+                        0% {
+                            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f80223, 0 0 30px #f80223, 0 0 40px #f80223, 0 0 50px #f80223, 0 0 60px #f80223, 0 0 70px #f80223;
+                        }
+                        50% {
+                            text-shadow: 0 0 10px #fff, 0 0 20px #f80223, 0 0 30px #f80223, 0 0 40px #f80223, 0 0 50px #f80223, 0 0 60px #f80223, 0 0 70px #f80223, 0 0 80px #f80223;
+                        }
+                        100% {
+                            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #f80223, 0 0 30px #f80223, 0 0 40px #f80223, 0 0 50px #f80223, 0 0 60px #f80223, 0 0 70px #f80223;
+                        }}
+
+#images{
+    margin-top: 50px;
+    height: 300px;
+         display: flex;
+     flex-direction: row;
+    justify-content: space-around;
+}
+#scores{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 50px;
+}
+#yours{
+    margin-right: 75px;
+}
+.same{
+    color: aliceblue;   
+    color: #fff;
+    font-size: 25px;
+    animation: glowwhite 100s infinite;
+    
+}
+.jpj{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    animation: glowboxred 1.5s infinite;
+}
+#command{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;   
+    color: #fff;
+    animation: glowyellow 100s infinite;
+    font-size: xx-large;
+    margin-left: 50px;   
+    margin-top: 7px;
+}
+#watermark{
+    display: flex;
+    justify-content:flex-start;
+    text-align: center;
+    color: aliceblue;   
+    color: #fff;
+    animation: glowwhite 100s infinite;
+    font-size: large;
+    position: fixed;
+    /* margin-top: 10p */
+}
