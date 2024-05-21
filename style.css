@@ -9,7 +9,7 @@ body{
     color: aliceblue;   
     color: #fff;
     animation: glowblue 100s infinite;
-}
+} 
 
 /* animations */
     @keyframes glowpink {

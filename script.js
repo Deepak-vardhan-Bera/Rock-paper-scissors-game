@@ -4,7 +4,7 @@ let paper=document.getElementById("paper");
 let scissors=document.getElementById("scissors");
 var compscore=0;
 var userscore=0
-;
+; 
 
 rock.addEventListener("click",() =>{
     user=rock.getAttribute("data-choice");
@@ -30,7 +30,7 @@ scissors.addEventListener("click",() =>{
 const compchoice=()=>{
       comp=Math.floor(Math.random() * 3);
     return comp;
-    }
+    }  
 const playgame =(user)=>{
      n=compchoice();
      console.log(user,n);
